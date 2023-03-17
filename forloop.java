@@ -13,7 +13,7 @@ public class forloop {
     {
             oddnumber = 2*i+1;
             i++;
-            System.out.println(oddnumber);
+            System.out.print(oddnumber);
         }
 
     }
