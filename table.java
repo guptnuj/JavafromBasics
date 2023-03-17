@@ -7,7 +7,7 @@ public class table {
         Scanner sc = new Scanner(System.in);
         int tablenumber = sc.nextInt();
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 10; i>0; i--) {
             int value = (tablenumber*i);
             System.out.println(tablenumber + " * "+ i +"=" + value);
         }
