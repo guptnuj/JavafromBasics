@@ -7,7 +7,7 @@ public class Printstars {
         int nooftimes = sc.nextInt();
 
         for (int i=nooftimes;i>0;i--) {
-            for (int j = 0; j < i; j++) {
+            for (int a = 0; a < i; a++) {
                 System.out.print("*");
             }
             System.out.print("\n");
