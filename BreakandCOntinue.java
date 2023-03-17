@@ -8,7 +8,7 @@ public class BreakandCOntinue {
 
               if(i==2){
                 System.out.println("adsfnm");
-                  break;
+                  continue;
 
             }
             System.out.println("i am king");
