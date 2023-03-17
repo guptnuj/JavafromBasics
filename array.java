@@ -9,5 +9,12 @@ public class array {
         for (int i =0;i<a.length;i++){
             System.out.println(a[i]);
         }
+
+        //Using foreach loop to access array elements
+        for (int element: a
+             ) {
+            System.out.println(element);
+
+        }
     }
 }
