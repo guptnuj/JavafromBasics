@@ -8,7 +8,7 @@ public class Printstars {
 
         for (int i=nooftimes;i>0;i--) {
             for (int a = 0; a < i; a++) {
-                System.out.print("*");
+                System.out.print("*");  //Print used to print in same line
             }
             System.out.print("\n");
 
