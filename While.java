@@ -9,10 +9,21 @@ public class While {
         System.out.println("Enter no. of time you want to run");
         Scanner sc = new Scanner(System.in);
         int numberoftimes =sc.nextInt();
+
+        // While loop
         while (numberoftimes<10){
             System.out.println("Anuj is Great");
             numberoftimes++;
         }
+
+        // DO wHile
+        do {
+            System.out.println("Anuj does great work");
+            numberoftimes++;
+        }
+        while(numberoftimes<10);
+
+
 
     }
 }
