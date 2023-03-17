@@ -6,10 +6,15 @@ public class forloop {
         System.out.println("Enter number till you want to get odd numbers:");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        for(int i=0;i<number; i++) {
+        int oddnumber = 0;
+        int i = 0;
 
-           int  oddnumber = 2*i+1;
+        while (oddnumber<number-2)
+    {
+            oddnumber = 2*i+1;
+            i++;
             System.out.println(oddnumber);
         }
+
     }
 }
