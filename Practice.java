@@ -17,25 +17,37 @@ public class Practice {
 //            }
 //    }
     //Problem 3 - recursive function to sum n numbers
-        static  int  Problem3(int n) {
-            int j = 0;
-            if(n <= 1){
-                return 1;
+//        static  int  Problem3(int n) {
+//            int j = 0;
+//            if(n <= 1){
+//                return 1;
+//            }
+//
+//
+//                return n + Problem3(n - 1);
+//        }
+
+
+    // Problem 4 - reverse star
+    static void star22(int n){
+
+        for(int i=n;i>=1;i--){
+            for(int j = 1;j<=i;j++){
+                System.out.print("*");
             }
-
-
-                return n + Problem3(n - 1);
-
-
-
-
-
+            System.out.println(" ");
         }
+    }
         public static void main(String[] args) {
 //star(4); //Problem 2 - Method calling
 
-     int c =  Problem3(1000);
-        System.out.println(c);
+            star22(4); //problem 4
+
+
+
+//     int c =  Problem3(1000);// Problem 3
+//        System.out.println(c);// Problem 3
 
     }
+
 }
